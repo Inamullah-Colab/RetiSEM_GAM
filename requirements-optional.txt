@@ -1,0 +1,25 @@
+# Optional / extended benchmark dependencies
+# These are not required for the main GitHub release workflow,
+# but are useful when reproducing older synthetic benchmarks or
+# running additional baseline learners kept for method traceability.
+
+# causal discovery baselines
+causal-learn
+lingam
+dagma
+notears-pytorch
+
+# DECI-related environment
+# Depending on environment, DECI may require a dedicated install route.
+torch
+lightning
+causica
+
+# additional ML baselines from older comparison runners
+xgboost
+lightgbm
+catboost
+
+# plotting / graph utilities used in exploratory legacy work
+networkx
+seaborn

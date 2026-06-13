@@ -1,0 +1,22 @@
+1000G REFERENCE PROXY MERGE - ASSUMPTIONS AND LIMITATIONS
+====================================================================
+Purpose: add cross-population reference proxy features when participant-level genetics are unavailable.
+
+IMPORTANT: This is NOT a true genetic merge and cannot replace individual SNP/PRS data.
+Proxy features are demographic-to-superpopulation mappings only.
+
+Input rows: 4055
+Output file: NHANES_with_1000G_reference_proxy.csv
+Mapping file: reference_1000g_proxy_mapping.csv
+
+Mean proxy superpopulation composition (dataset-level):
+- GREF_AFR: 0.2642
+- GREF_AMR: 0.2535
+- GREF_EAS: 0.0175
+- GREF_EUR: 0.4449
+- GREF_SAS: 0.0198
+
+Recommended use:
+- Include GREF_* variables only as sensitivity covariates.
+- Do not interpret GREF_* as participant genotypes.
+- For causal genetic inference, use NHANES genotype data + PRS/MR pipelines.

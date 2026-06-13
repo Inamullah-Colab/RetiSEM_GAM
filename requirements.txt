@@ -1,0 +1,15 @@
+# Core release dependencies
+# Covers:
+# - real-data branch construction
+# - linear / RetiSEM_GAM mediation workflow
+# - clustering / forest / dashboard plotting
+# - historical input/provenance helper scripts shipped in the package
+
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+statsmodels
+requests
+pyreadstat

@@ -1,0 +1,2 @@
+model_type,status,n_pathways,nie_significant_count,nie_significant_rate,mean_abs_nie,max_abs_nie,mean_te,mean_nde,n_z_covars,n_g_covars,weight_col_used
+RetiSEM_GAM,ok,154,4,0.025974025974025976,0.037037088616608684,0.18354541957250217,0.7298274303931455,0.7255566276607084,5,4,WTMEC2YR

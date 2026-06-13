@@ -1,0 +1,11 @@
+Global-only retinal workflow manifest
+==================================================
+
+Paper-style cluster representative mediators:
+- Artery_Vessel_density
+- Artery_Fractal_dimension
+- Artery_Average_width
+- Artery_Tortuosity_density
+- Artery_Distance_tortuosity
+- Vein_Tortuosity_density
+- Vein_Distance_tortuosity

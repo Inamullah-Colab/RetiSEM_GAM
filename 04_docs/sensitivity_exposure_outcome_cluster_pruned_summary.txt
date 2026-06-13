@@ -1,0 +1,33 @@
+Exposure/outcome-cluster-pruned sensitivity branch
+============================================================
+Rows: 4055
+Columns: 32
+
+Pruned exposures:
+- LBXTR
+- LBXAPB
+
+Pruned outcomes:
+- BPXSY2
+- BPXDI2
+- BPXSY4
+- BPXDI4
+- LBXGLU
+- LBXGH
+- LBXIN
+- LBXCRP
+- LBXSCR
+- URXUMA
+- URXUCR
+
+Cluster-representative retinal mediators:
+- Artery_Vessel_density
+- Artery_Fractal_dimension
+- Artery_Average_width
+- Artery_Tortuosity_density
+- Artery_Distance_tortuosity
+- Vein_Tortuosity_density
+- Vein_Distance_tortuosity
+
+Z covariates: 5
+G covariates: 4

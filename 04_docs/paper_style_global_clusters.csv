@@ -1,0 +1,13 @@
+feature,cluster_id
+Vein_Distance_tortuosity,1
+Vein_Squared_curvature_tortuosity,2
+Vein_Tortuosity_density,3
+Artery_Average_width,4
+Vein_Average_width,4
+Artery_Fractal_dimension,5
+Artery_Vessel_density,5
+Vein_Fractal_dimension,6
+Vein_Vessel_density,6
+Artery_Distance_tortuosity,7
+Artery_Squared_curvature_tortuosity,8
+Artery_Tortuosity_density,9

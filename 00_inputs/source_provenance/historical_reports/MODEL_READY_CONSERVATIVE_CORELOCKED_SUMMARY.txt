@@ -1,0 +1,24 @@
+Conservative core-locked pruning summary
+============================================================
+Start features: 68
+Final features: 36
+Dropped features: 32
+Core locked kept: 30
+Final max VIF: 230.703
+
+Top 15 VIF:
+- LBXAPB: 230.703
+- MCQ160C: 186.043
+- MCQ160E: 185.012
+- LBDLDL: 152.681
+- BMXWAIST: 142.353
+- LBXGH: 77.327
+- BMXBMI: 73.292
+- BPXSY1: 63.539
+- LBXGLU: 51.204
+- LBXTC: 46.507
+- BPXPLS: 37.270
+- BPXDI1: 26.436
+- CRAE_Knudtson: 21.827
+- LBDHDD: 19.612
+- CRVE_Knudtson: 19.065

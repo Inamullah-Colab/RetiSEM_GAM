@@ -1,0 +1,2 @@
+model_type,status,n_pathways,nie_significant_count,nie_significant_rate,mean_abs_nie,max_abs_nie,mean_te,mean_nde,n_z_covars,n_g_covars,weight_col_used
+linear,ok,273,10,0.03663003663003663,0.003572289939594041,0.024497813690528936,0.36960736969206254,0.36868022472537826,5,4,WTMEC2YR

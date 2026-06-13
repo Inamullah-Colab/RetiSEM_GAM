@@ -1,0 +1,6 @@
+RIDRETH1_code,NHANES_label,GREF_AFR,GREF_AMR,GREF_EAS,GREF_EUR,GREF_SAS
+1,Mexican American,0.05,0.85,0.0,0.1,0.0
+2,Other Hispanic,0.1,0.5,0.05,0.35,0.0
+3,Non-Hispanic White,0.03,0.05,0.0,0.9,0.02
+4,Non-Hispanic Black,0.9,0.02,0.0,0.08,0.0
+5,Other/Multi,0.1,0.1,0.35,0.2,0.25

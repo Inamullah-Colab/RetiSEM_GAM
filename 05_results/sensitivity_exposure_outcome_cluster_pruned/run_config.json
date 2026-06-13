@@ -1,0 +1,67 @@
+{
+  "input_csv": "03_outputs/sensitivity_exposure_outcome_cluster_pruned.csv",
+  "out_dir": "05_results/sensitivity_exposure_outcome_cluster_pruned",
+  "bootstrap": 10,
+  "seed": 2026,
+  "min_complete_rows": 250,
+  "contrast_q_low": 0.25,
+  "contrast_q_high": 0.75,
+  "exposures": [
+    "LBXTR",
+    "LBXAPB"
+  ],
+  "mediators": [
+    "Artery_Vessel_density",
+    "Artery_Fractal_dimension",
+    "Artery_Average_width",
+    "Artery_Tortuosity_density",
+    "Artery_Distance_tortuosity",
+    "Vein_Tortuosity_density",
+    "Vein_Distance_tortuosity"
+  ],
+  "outcomes": [
+    "BPXSY2",
+    "BPXDI2",
+    "BPXSY4",
+    "BPXDI4",
+    "LBXGLU",
+    "LBXGH",
+    "LBXIN",
+    "LBXCRP",
+    "LBXSCR",
+    "URXUMA",
+    "URXUCR"
+  ],
+  "covars": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "INDFMPIR",
+    "DMDEDUC3",
+    "GREF_AMR",
+    "GREF_EUR",
+    "GREF_SAS",
+    "GREF_entropy"
+  ],
+  "gam_n_knots": 4,
+  "gam_degree": 3,
+  "gam_transform": "log1p_signed",
+  "models": [
+    "linear",
+    "RetiSEM_GAM"
+  ],
+  "z_covars": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "INDFMPIR",
+    "DMDEDUC3"
+  ],
+  "g_covars": [
+    "GREF_AMR",
+    "GREF_EUR",
+    "GREF_SAS",
+    "GREF_entropy"
+  ],
+  "weight_col_used": "WTMEC2YR"
+}

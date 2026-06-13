@@ -1,0 +1,90 @@
+{
+  "rows": 4055,
+  "cols": 32,
+  "exposures": [
+    "LBXTR",
+    "LBXAPB"
+  ],
+  "outcomes": [
+    "BPXSY2",
+    "BPXDI2",
+    "BPXSY4",
+    "BPXDI4",
+    "LBXGLU",
+    "LBXGH",
+    "LBXIN",
+    "LBXCRP",
+    "LBXSCR",
+    "URXUMA",
+    "URXUCR"
+  ],
+  "mediators": [
+    "Artery_Vessel_density",
+    "Artery_Fractal_dimension",
+    "Artery_Average_width",
+    "Artery_Tortuosity_density",
+    "Artery_Distance_tortuosity",
+    "Vein_Tortuosity_density",
+    "Vein_Distance_tortuosity"
+  ],
+  "covars": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "INDFMPIR",
+    "DMDEDUC3",
+    "GREF_AMR",
+    "GREF_EUR",
+    "GREF_SAS",
+    "GREF_entropy"
+  ],
+  "z_covars": [
+    "RIDAGEYR",
+    "RIAGENDR",
+    "RIDRETH1",
+    "INDFMPIR",
+    "DMDEDUC3"
+  ],
+  "g_covars": [
+    "GREF_AMR",
+    "GREF_EUR",
+    "GREF_SAS",
+    "GREF_entropy"
+  ],
+  "all_nan_dropped": [],
+  "transform_audit": {
+    "LBXTR": "signed_log1p+zscore",
+    "LBDLDL": "signed_log1p+zscore",
+    "LBXAPB": "signed_log1p+zscore",
+    "BPXSY2": "signed_log1p+zscore",
+    "BPXDI2": "signed_log1p+zscore",
+    "BPXSY3": "signed_log1p+zscore",
+    "BPXDI3": "signed_log1p+zscore",
+    "BPXSY4": "signed_log1p+zscore",
+    "BPXDI4": "signed_log1p+zscore",
+    "LBXGLU": "signed_log1p+zscore",
+    "LBXGH": "signed_log1p+zscore",
+    "LBXIN": "signed_log1p+zscore",
+    "LBXCRP": "signed_log1p+zscore",
+    "LBXSCR": "signed_log1p+zscore",
+    "URXUMA": "signed_log1p+zscore",
+    "URXUCR": "signed_log1p+zscore",
+    "Artery_Vessel_density": "signed_log1p+zscore",
+    "Artery_Fractal_dimension": "signed_log1p+zscore",
+    "Artery_Average_width": "signed_log1p+zscore",
+    "Artery_Tortuosity_density": "signed_log1p+zscore",
+    "Artery_Distance_tortuosity": "signed_log1p+zscore",
+    "Vein_Tortuosity_density": "signed_log1p+zscore",
+    "Vein_Distance_tortuosity": "signed_log1p+zscore",
+    "RIDAGEYR": "signed_log1p+zscore",
+    "INDFMPIR": "signed_log1p+zscore",
+    "GREF_AMR": "signed_log1p+zscore",
+    "GREF_EUR": "signed_log1p+zscore",
+    "GREF_SAS": "signed_log1p+zscore",
+    "GREF_entropy": "signed_log1p+zscore",
+    "WTMEC2YR": "raw_weight"
+  },
+  "source_cluster_role_file": "03_outputs/sensitivity_cluster_representative_roles.json",
+  "csv_path": "03_outputs/sensitivity_exposure_outcome_cluster_pruned.csv",
+  "roles_path": "03_outputs/sensitivity_exposure_outcome_cluster_pruned_roles.json"
+}

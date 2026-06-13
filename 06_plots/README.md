@@ -5,7 +5,6 @@ This folder contains the branch figures used for interpretation and GitHub/revie
 ## Primary cluster-global figures
 
 - `global_retinal_cluster_heatmap.png`
-- `cluster_representative_mediation_dashboard.png`
 - `global_only_comparison_dashboard.png`
 - `forest_top30_linear_cluster_representative.png`
 - `forest_top30_gam_cluster_representative.png`
@@ -14,7 +13,6 @@ This folder contains the branch figures used for interpretation and GitHub/revie
 
 ## Stricter clustered sensitivity figures
 
-- `exposure_outcome_cluster_pruned_mediation_dashboard.png`
 - `exposure_outcome_cluster_heatmap.png`
 - `forest_top30_linear_exposure_outcome_cluster_pruned.png`
 - `forest_top30_gam_exposure_outcome_cluster_pruned.png`
@@ -35,6 +33,5 @@ This folder contains the branch figures used for interpretation and GitHub/revie
 Recommended starting figures:
 
 - `global_retinal_cluster_heatmap.png`
-- `cluster_representative_mediation_dashboard.png`
 - `forest_top30_linear_cluster_representative.png`
 - `forest_top30_gam_cluster_representative.png`

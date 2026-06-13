@@ -58,6 +58,12 @@ Use:
 - `00_inputs/source_provenance/README.md`
 - `04_docs/DATA_PROVENANCE_MAP.md`
 
+Important:
+
+- `00_inputs/source_provenance/historical_reports/` is archival provenance material
+- it is not the active release definition
+- if older reports differ from the current release docs, follow the current release docs
+
 ### Retinal mediator input
 
 The active retinal source table is:
@@ -231,7 +237,6 @@ Sensitivity branch:
 Figures:
 
 - `06_plots/global_retinal_cluster_heatmap.png`
-- `06_plots/cluster_representative_mediation_dashboard.png`
 - `06_plots/forest_top30_linear_cluster_representative.png`
 - `06_plots/forest_top30_gam_cluster_representative.png`
 

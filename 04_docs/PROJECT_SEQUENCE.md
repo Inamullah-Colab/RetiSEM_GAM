@@ -61,7 +61,6 @@ This is the main branch-level comparison for:
 Use:
 
 - `06_plots/global_retinal_cluster_heatmap.png`
-- `06_plots/cluster_representative_mediation_dashboard.png`
 - `06_plots/forest_top30_linear_cluster_representative.png`
 - `06_plots/forest_top30_gam_cluster_representative.png`
 

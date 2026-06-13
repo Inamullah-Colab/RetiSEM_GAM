@@ -41,7 +41,6 @@ Main outputs to inspect after the run:
 
 - `05_results/sensitivity_cluster_representative_gcovars_clean/summary_compare.csv`
 - `06_plots/global_retinal_cluster_heatmap.png`
-- `06_plots/cluster_representative_mediation_dashboard.png`
 - `06_plots/forest_top30_linear_cluster_representative.png`
 - `06_plots/forest_top30_gam_cluster_representative.png`
 
@@ -171,7 +170,6 @@ Active branch figures:
 - `06_plots/global_retinal_cluster_heatmap.png`
 - `06_plots/forest_top30_linear_cluster_representative.png`
 - `06_plots/forest_top30_gam_cluster_representative.png`
-- `06_plots/cluster_representative_mediation_dashboard.png`
 
 ## Reviewer / Editor Convenience
 

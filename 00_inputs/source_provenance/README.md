@@ -51,12 +51,25 @@ These are the main files that feed the active phenotype domains used in the fina
 
 Key legacy reports from the earlier NHANES workflow.
 
+Important:
+
+- these are archival reports only
+- they should not be read as the active release specification
+- if they differ from the current release docs, the current release docs take precedence
+
 These are included for:
 
 - audit trail
 - variable-history lookup
 - paper writing support
 - GitHub documentation support
+
+The archival reports are mainly useful for understanding how some merged or derived quantities were documented historically, for example:
+
+- matched NHANES-retinal tables
+- older derived hemodynamic summaries such as `SBP_mean`, `DBP_mean`, `PulsePressure_mean`, `MAP_mean`
+- older cardiovascular variable extension notes
+- earlier pruning summaries
 
 This subfolder also includes the original proxy-genetic construction references:
 
@@ -73,6 +86,8 @@ Also see:
 
 - `HISTORICAL_WORKSPACE_INDEX.md`
   - explains the major old `NAHES_Dataset` subfolders and why they were not copied wholesale
+- `historical_reports/README.md`
+  - explains how to interpret the archived reports safely
 
 ## Active Branch Mapping
 

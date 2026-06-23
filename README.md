@@ -1,16 +1,32 @@
 # RetiSEM-GAM GitHub Release
 
-# RetiSEM_GAM
 
-<p align="center">
-  <img src="ig_0b1943f95346f242016a3a8079c4a48191acac04af4dc9afbe.png" alt="RetiSEM_GAM visual" width="50%">
-</p>
+<table>
+<tr>
+<td width="50%">
+
+<img src="ig_0b1943f95346f242016a3a8079c4a48191acac04af4dc9afbe.png" alt="RetiSEM_GAM visual" width="100%">
+
+</td>
+<td width="50%" valign="top">
+
+## Overview
+
+RetiSEM_GAM extends the earlier RetiSEM framework by preserving the same biologically ordered, domain-restricted structure while refining how retinal traits are interpreted in the model.
+
+In this framework, the retina is treated as an intermediate phenotype layer rather than a primary biological cause of cardiovascular disease. Retinal vascular features may reflect and partially transmit systemic vascular signal, but they are not assumed to be dominant mechanistic drivers.
+
+Although neurophysiological eye-heart links exist, including trigeminal-vagal reflex pathways, these are understood as rare and context-specific phenomena. For that reason, this project uses retinal traits as statistical mediators or mediator-like phenotypes for hypothesis generation, not as direct proof that the retina causes cardiovascular disease.
+
+</td>
+</tr>
+</table>
 
 ![model](https://img.shields.io/badge/model-RetiSEM_GAM-1f6feb)
 ![python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![method](https://img.shields.io/badge/method-GAM%20%2B%20SEM-0A7E8C)
 ![domain](https://img.shields.io/badge/domain-retinal%20features-2E8B57)
-![focus](https://img.shields.io/badge/focus-eye%20to%20heart%20pathways-C0392B)
+![focus](https://img.shields.io/badge/focus-vagal%20pathway%20hypothesis-C0392B)
 ![workflow](https://img.shields.io/badge/workflow-hypothesis%20generation-black?logo=github)
 
 This GitHub-facing package intentionally excludes the internal manuscript workspace.

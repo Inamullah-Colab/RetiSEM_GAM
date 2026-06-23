@@ -1,6 +1,6 @@
 # RetiSEM-GAM GitHub Release
 <p align="center">
-  <img src="assets/ig_0b1943f95346f242016a3a8079c4a48191acac04af4dc9afbe.png" alt="RetiSEM_GAM banner" width="100%">
+  <img src="ig_0b1943f95346f242016a3a8079c4a48191acac04af4dc9afbe.png" alt="RetiSEM_GAM visual" width="100%">
 </p>
 This folder is a standalone GitHub-facing release package for the current global-retinal cluster branch of the project.
 

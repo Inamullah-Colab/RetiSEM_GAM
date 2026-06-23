@@ -3,7 +3,7 @@
 # RetiSEM_GAM
 
 <p align="center">
-  <img src="ig_0b1943f95346f242016a3a8079c4a48191acac04af4dc9afbe.png" alt="RetiSEM_GAM visual" width="100%">
+  <img src="ig_0b1943f95346f242016a3a8079c4a48191acac04af4dc9afbe.png" alt="RetiSEM_GAM visual" width="50%">
 </p>
 
 ![model](https://img.shields.io/badge/model-RetiSEM_GAM-1f6feb)

@@ -1,8 +1,11 @@
 # RetiSEM-GAM GitHub Release
+
+# RetiSEM_GAM
+
 <p align="center">
   <img src="ig_0b1943f95346f242016a3a8079c4a48191acac04af4dc9afbe.png" alt="RetiSEM_GAM visual" width="100%">
 </p>
-This folder is a standalone GitHub-facing release package for the current global-retinal cluster branch of the project.
+
 ![model](https://img.shields.io/badge/model-RetiSEM_GAM-1f6feb)
 ![python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![method](https://img.shields.io/badge/method-GAM%20%2B%20SEM-0A7E8C)
